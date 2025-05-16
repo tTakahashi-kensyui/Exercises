@@ -4,10 +4,10 @@ package project;
  * 生徒クラス
  */
 public class Student {
-	private String id;
-	private String name;
-	private int age;
-	private double grade;
+	private String id;	//学籍番号
+	private String name;	//名前
+	private int age;		//年齢
+	private double grade;	//評価
 
 	//コンストラクタ
 	public Student(String id, String name, int age, double grade) {
